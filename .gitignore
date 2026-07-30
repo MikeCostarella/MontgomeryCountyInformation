@@ -1,0 +1,23 @@
+# --- Node / Vite ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --- Editor / OS ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Local scratch (never commit) ---
+# _to_delete/ collects files parked for manual removal; _xfer/ is a transfer
+# staging dir. Both are local-only and safe to delete outright.
+_to_delete/
+_xfer/
